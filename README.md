@@ -16,6 +16,7 @@ This repository contains code for forecasting Bitcoin realized volatility using 
 
 /svm/            # SVM sentiment analysis scripts
     SVM2_Processing.py
+    clean_twitter_data.py
     SVM2_Reddit_Analyse.py
     SVM2_Compare_With_VADER.py
 
@@ -61,6 +62,9 @@ python vader/VADER_MLP.py
 ### 2. SVM Analysis
 
 ```bash
+# Clean preprocesses labelled Twitter data.
+python svm/clean_twitter_data.py
+
 # Train SVM model and generate sentiment scores
 python svm/SVM2_Processing.py
 
