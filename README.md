@@ -40,7 +40,7 @@ The following raw data files are required in `data/raw/`:
 
 - `Reddit_2021.csv` - Cleaned Reddit comments from 2021
 - `btc_5min_2021.csv` - Bitcoin 5-minute price data for 2021
-- `tweets_cleaned.csv` - Training data for SVM model (optional)
+- `tweets_cleaned.csv` - Training data for SVM model 
 
 **Note:** Raw data files are excluded from the repository due to size. See `data/raw/README.md` for details.
 
