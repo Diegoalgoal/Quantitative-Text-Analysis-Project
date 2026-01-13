@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.DS_Store
+.ipynb_checkpoints/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data files (excluded due to size)
+data/raw/*
+!data/raw/README.md
+
+# Output files (can be regenerated)
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
